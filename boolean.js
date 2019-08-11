@@ -11,17 +11,22 @@
 // Print is child value
 // Print is senior value 
 
-let temp = 80
-let isFreezing = temp <= 32
+let temp = 180
 
-if (isFreezing) {
+if (temp <= 32) {
     console.log('It is freezing outside!')    
 }
 
+if (temp >= 110) {
+    console.log('It is way too hot outside!')
+}
 
-let age = 36
-let child = age <= 7
-let senior = age >= 65
+let age = 5
 
-console.log(child)
-console.log(senior)
+if (age <= 7) {
+    console.log('You get child discount!')
+}
+
+if (age >= 65) {
+    console.log('You get seniors discount!')
+}
