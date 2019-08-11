@@ -11,6 +11,14 @@
 // Print is child value
 // Print is senior value 
 
+let temp = 80
+let isFreezing = temp <= 32
+
+if (isFreezing) {
+    console.log('It is freezing outside!')    
+}
+
+
 let age = 36
 let child = age <= 7
 let senior = age >= 65
