@@ -11,7 +11,7 @@ if (isAccountLocked) {
 
 // Challenge
 
-let temp = 4
+let temp = 4 
 
 if (temp <= 32) {
     console.log('It is freezing outside!')
