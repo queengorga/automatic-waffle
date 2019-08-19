@@ -1,3 +1,9 @@
-let name = 'Bea'
+let name
+    
+name = 'Bea'
 
-console.log(name)
+if (name === undefined) {
+    console.log('Please provide a name')
+} else {
+    console.log(name)
+}
