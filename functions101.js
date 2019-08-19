@@ -1,4 +1,4 @@
-// Function - input, code, output
+// Function - input (argument), code, output (return value)
 
 let greetUser = function () {
     console.log('Welcome user!')
@@ -9,7 +9,15 @@ greetUser()
 greetUser()
 
 let square = function (num) {
-    console.log(num)
+    let result = num * num
+    return result
 }
-square(3)
-square(10)
+
+let value = square(3)
+let otherValue = square(10)
+
+console.log(value)
+console.log(otherValue)
+
+//Challenge Area
+
