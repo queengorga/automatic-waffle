@@ -1,3 +1,4 @@
+// Global scope (convertFahrenheitToCelsius, tempOne, tempTwo)
 let convertFahrenheitToCelsius = function (fahrenheit) {
     let celsius = (fahrenheit - 32) * 5 / 9
     return celsius
