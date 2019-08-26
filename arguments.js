@@ -22,3 +22,5 @@ let getTip = function (total, tipPercent = .2) {
 
 let tip = getTip(40, .25)
 console.log(tip)
+
+console.log('Bea'+ " Arwen")
