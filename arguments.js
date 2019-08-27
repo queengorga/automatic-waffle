@@ -8,7 +8,8 @@ console.log(result)
 
 // Default arguments
 let getScoreText = function (name = 'Bea', score = 100) {
-    return 'Name: ' + name + ' Score: ' + score
+   return `Name: ${name} - Score: ${score}`
+    // return 'Name: ' + name + ' Score: ' + score
 }
 
 let scoreText = getScoreText(undefined , 99)
@@ -24,4 +25,5 @@ let tip = getTip(40, .25)
 console.log(tip)
 
 let name = 'Bea'
-console.log(`Hey, my name is ${name}!`)
+let age = 2
+console.log(`Hey, my name is ${name}!  I am ${age} years old`)
