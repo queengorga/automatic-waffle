@@ -9,21 +9,18 @@ console.log(result)
 // Default arguments
 let getScoreText = function (name = 'Bea', score = 100) {
    return `Name: ${name} - Score: ${score}`
-    // return 'Name: ' + name + ' Score: ' + score
 }
 
 let scoreText = getScoreText(undefined , 99)
 console.log(scoreText)
 
-// Challenge 
+// Challenge area 
 
 let getTip = function (total, tipPercent = .2) {
-    return total * tipPercent
+    let percent = tipPercent * 100
+    let tip = total * tipPercent
+    return `A ${percent}% tip on $${total} would be $${tip}`
 }
 
-let tip = getTip(40, .25)
+let tip = getTip(60)
 console.log(tip)
-
-let name = 'Bea'
-let age = 2
-console.log(`Hey, my name is ${name}!  I am ${age} years old`)
