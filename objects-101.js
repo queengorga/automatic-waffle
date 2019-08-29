@@ -17,3 +17,7 @@ let pet = {
 }
 
 console.log(`${pet.name} is ${pet.age} and lives in ${pet.location}.`)
+
+pet.age = 3
+
+console.log(`${pet.name} is ${pet.age} and lives in ${pet.location}.`)
