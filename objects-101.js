@@ -18,6 +18,6 @@ let pet = {
 
 console.log(`${pet.name} is ${pet.age} and lives in ${pet.location}.`)
 
-pet.age = 3
+pet.age = pet.age + 1 
 
 console.log(`${pet.name} is ${pet.age} and lives in ${pet.location}.`)
