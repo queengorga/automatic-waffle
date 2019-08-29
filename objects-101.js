@@ -4,4 +4,4 @@ let myBook = {
     pageCount: '462'
 }
 
-console.log(myBook.pageCount)
+console.log(`${myBook.title} by ${myBook.author}`)
