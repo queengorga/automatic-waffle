@@ -13,3 +13,6 @@ let otherBook = {
 let getSummary = function (book) {
     console.log(`${book.title} by ${book.author}`)
 }
+
+getSummary(myBook)
+getSummary(otherBook)
