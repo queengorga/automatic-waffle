@@ -9,3 +9,7 @@ let otherBook = {
     author: 'Matt Haig',
     pageCount: '285'
 }
+
+let getSummary = function (book) {
+    console.log(`${book.title} by ${book.author}`)
+}
