@@ -21,7 +21,7 @@ console.log(otherValue)
 
 //Challenge Area
 
-let convertFahrenheitToCelsius = function (fahrenheit) {
+let convertFahrenheitToCelsius z= function (fahrenheit) {
     let celsius = (fahrenheit - 32) * 5 / 9
     return celsius
 }
