@@ -18,7 +18,14 @@ let addIncome = function (account, income) {
     account.income = account.income + income
 }
 
-// resetAccount
+let resetAccount = function (account) {
+    account.expenses = 0
+    account.income = 0
+}
+
+let getAccountSummary = function (account) {
+    let balance = account.income - account.expenses
+}
 
 // getAccountSummary
 // Account for Bea has $900. $1000 in income. $100 in expenses.
