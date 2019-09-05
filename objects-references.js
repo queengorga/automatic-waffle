@@ -4,6 +4,10 @@ let myAccount = {
     income: 0
 }
 
+let otherAccount = myAccount
+otherAccount.income = 1000
+otherAccount = {}
+
 let addExpense = function (account, amount) {
     account = {}
     // account.expenses = account.expenses + amount
