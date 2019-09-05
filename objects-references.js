@@ -14,5 +14,12 @@ let addExpense = function (account, amount) {
     console.log(account)
 }
 
+// addIncome
+
+// resetAccount
+
+// getAccountSummary
+// Account for Bea has $900. $1000 in income. $100 in expenses.
+
 addExpense(myAccount, 2.50)
 console.log(myAccount)
