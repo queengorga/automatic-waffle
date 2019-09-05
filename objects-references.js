@@ -5,7 +5,8 @@ let myAccount = {
 }
 
 let addExpense = function (account, amount) {
-    account.expenses = account.expenses + amount
+    account = {}
+    // account.expenses = account.expenses + amount
     console.log(account)
 }
 
