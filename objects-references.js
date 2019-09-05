@@ -4,14 +4,8 @@ let myAccount = {
     income: 0
 }
 
-let otherAccount = myAccount
-otherAccount.income = 1000
-otherAccount = {}
-
 let addExpense = function (account, amount) {
-    account = {}
-    // account.expenses = account.expenses + amount
-    console.log(account)
+    account.expenses = account.expenses + amount
 }
 
 let addIncome = function (account, income) {
@@ -25,10 +19,12 @@ let resetAccount = function (account) {
 
 let getAccountSummary = function (account) {
     let balance = account.income - account.expenses
+    return `Account for ${account.name} has $${balance}, $${account.income} in the income, $${account.expenses} in expenses.`
 }
 
-// getAccountSummary
-// Account for Bea has $900. $1000 in income. $100 in expenses.
-
+addIncome(myAccount, 2000)
 addExpense(myAccount, 2.50)
-console.log(myAccount)
+addExpense(myAccount, 160)
+console.log(getAccountSummary(myAccount))
+resetAccount(myAccount)
+console.log(getAccountSummary(myAccount))
