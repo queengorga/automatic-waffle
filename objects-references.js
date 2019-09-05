@@ -14,7 +14,9 @@ let addExpense = function (account, amount) {
     console.log(account)
 }
 
-// addIncome
+let addIncome = function (account, income) {
+    account.income = account.income + income
+}
 
 // resetAccount
 
