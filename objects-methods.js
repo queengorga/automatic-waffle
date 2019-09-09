@@ -2,9 +2,11 @@ let restaurant = {
     name: 'Nomnom',
     guestCapacity: 75,
     guestCount: 0,
-    checkAvailability: function (partySIze) {
-        console.log(partySize)
+    checkAvailability: function (partySize) {
+        return true
     }
 }
 
-restaurant.checkAvailability(6)
+let status = restaurant.checkAvailability(6)
+
+console.log(status)
