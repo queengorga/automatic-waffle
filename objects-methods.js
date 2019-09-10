@@ -1,10 +1,10 @@
 let restaurant = {
     name: 'Nomnom',
     guestCapacity: 75,
-    guestCount: 0,
+    guestCount: 73,
     checkAvailability: function (partySize) {
-        console.log(this)
-        return true
+        let seatsLeft = this.guestCapacity - this.guestCount
+        return partySize <= seatsLeft
     }
 }
 
