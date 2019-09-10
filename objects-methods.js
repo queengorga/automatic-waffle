@@ -3,6 +3,7 @@ let restaurant = {
     guestCapacity: 75,
     guestCount: 0,
     checkAvailability: function (partySize) {
+        console.log(this)
         return true
     }
 }
@@ -10,3 +11,4 @@ let restaurant = {
 let status = restaurant.checkAvailability(6)
 
 console.log(status)
+    
