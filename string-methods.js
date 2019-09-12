@@ -15,3 +15,14 @@ console.log(password.includes('password'))
 
 // Trim 
 console.log(name.trim())
+
+// Challenge area
+
+// isValidPassword
+let isValidPassword = function (password) {
+    return password.length > 8 && !password.includes('password')      
+}
+
+console.log(isValidPassword('asdf'))
+console.log(isValidPassword('asdg1323@@#$'))
+console.log(isValidPassword('asdfasfdpasswordasdfs'))
