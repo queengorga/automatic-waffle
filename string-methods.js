@@ -8,3 +8,7 @@ console.log(name.toUpperCase())
 
 // Convert to lowercase
 console.log(name.toLowerCase())
+
+// Includes method
+let password = 'abc123password14344'
+console.log(password.includes('password'))
