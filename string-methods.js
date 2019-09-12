@@ -1,4 +1,4 @@
-let name = 'Bea Arwen'
+let name = '  Bea Arwen '
 
 // Length property
 console.log(name.length)
@@ -12,3 +12,6 @@ console.log(name.toLowerCase())
 // Includes method
 let password = 'abc123password14344'
 console.log(password.includes('password'))
+
+// Trim 
+console.log(name.trim())
